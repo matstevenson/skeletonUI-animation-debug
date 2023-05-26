@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1216EBB02A2126A800FCEF5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1216EBAF2A2126A800FCEF5A /* AppDelegate.swift */; };
+		1216EBB22A2126A800FCEF5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1216EBB12A2126A800FCEF5A /* SceneDelegate.swift */; };
+		1216EBB42A2126A800FCEF5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1216EBB32A2126A800FCEF5A /* ViewController.swift */; };
+		1216EBB72A2126A800FCEF5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1216EBB52A2126A800FCEF5A /* Main.storyboard */; };
+		1216EBB92A2126A900FCEF5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1216EBB82A2126A900FCEF5A /* Assets.xcassets */; };
+		1216EBBC2A2126A900FCEF5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1216EBBA2A2126A900FCEF5A /* LaunchScreen.storyboard */; };
+		1216EBC52A21270300FCEF5A /* AlbumList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1216EBC42A21270300FCEF5A /* AlbumList.swift */; };
+		1216EBC82A21278F00FCEF5A /* SkeletonUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1216EBC72A21278F00FCEF5A /* SkeletonUI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1216EBAC2A2126A800FCEF5A /* SkeletonUI-Animation-Bug-20230526.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SkeletonUI-Animation-Bug-20230526.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1216EBAF2A2126A800FCEF5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1216EBB12A2126A800FCEF5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1216EBB32A2126A800FCEF5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1216EBB62A2126A800FCEF5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1216EBB82A2126A900FCEF5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1216EBBB2A2126A900FCEF5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1216EBBD2A2126A900FCEF5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1216EBC42A21270300FCEF5A /* AlbumList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1216EBA92A2126A800FCEF5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1216EBC82A21278F00FCEF5A /* SkeletonUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1216EBA32A2126A800FCEF5A = {
+			isa = PBXGroup;
+			children = (
+				1216EBAE2A2126A800FCEF5A /* SkeletonUI-Animation-Bug-20230526 */,
+				1216EBAD2A2126A800FCEF5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1216EBAD2A2126A800FCEF5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1216EBAC2A2126A800FCEF5A /* SkeletonUI-Animation-Bug-20230526.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1216EBAE2A2126A800FCEF5A /* SkeletonUI-Animation-Bug-20230526 */ = {
+			isa = PBXGroup;
+			children = (
+				1216EBC32A2126E600FCEF5A /* SwiftUI-Views */,
+				1216EBAF2A2126A800FCEF5A /* AppDelegate.swift */,
+				1216EBB12A2126A800FCEF5A /* SceneDelegate.swift */,
+				1216EBB32A2126A800FCEF5A /* ViewController.swift */,
+				1216EBB52A2126A800FCEF5A /* Main.storyboard */,
+				1216EBB82A2126A900FCEF5A /* Assets.xcassets */,
+				1216EBBA2A2126A900FCEF5A /* LaunchScreen.storyboard */,
+				1216EBBD2A2126A900FCEF5A /* Info.plist */,
+			);
+			path = "SkeletonUI-Animation-Bug-20230526";
+			sourceTree = "<group>";
+		};
+		1216EBC32A2126E600FCEF5A /* SwiftUI-Views */ = {
+			isa = PBXGroup;
+			children = (
+				1216EBC42A21270300FCEF5A /* AlbumList.swift */,
+			);
+			path = "SwiftUI-Views";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1216EBAB2A2126A800FCEF5A /* SkeletonUI-Animation-Bug-20230526 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1216EBC02A2126A900FCEF5A /* Build configuration list for PBXNativeTarget "SkeletonUI-Animation-Bug-20230526" */;
+			buildPhases = (
+				1216EBA82A2126A800FCEF5A /* Sources */,
+				1216EBA92A2126A800FCEF5A /* Frameworks */,
+				1216EBAA2A2126A800FCEF5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SkeletonUI-Animation-Bug-20230526";
+			packageProductDependencies = (
+				1216EBC72A21278F00FCEF5A /* SkeletonUI */,
+			);
+			productName = "SkeletonUI-Animation-Bug-20230526";
+			productReference = 1216EBAC2A2126A800FCEF5A /* SkeletonUI-Animation-Bug-20230526.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1216EBA42A2126A800FCEF5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1216EBAB2A2126A800FCEF5A = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 1216EBA72A2126A800FCEF5A /* Build configuration list for PBXProject "SkeletonUI-Animation-Bug-20230526" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1216EBA32A2126A800FCEF5A;
+			packageReferences = (
+				1216EBC62A21278F00FCEF5A /* XCRemoteSwiftPackageReference "SkeletonUI" */,
+			);
+			productRefGroup = 1216EBAD2A2126A800FCEF5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1216EBAB2A2126A800FCEF5A /* SkeletonUI-Animation-Bug-20230526 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1216EBAA2A2126A800FCEF5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1216EBBC2A2126A900FCEF5A /* LaunchScreen.storyboard in Resources */,
+				1216EBB92A2126A900FCEF5A /* Assets.xcassets in Resources */,
+				1216EBB72A2126A800FCEF5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1216EBA82A2126A800FCEF5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1216EBB42A2126A800FCEF5A /* ViewController.swift in Sources */,
+				1216EBB02A2126A800FCEF5A /* AppDelegate.swift in Sources */,
+				1216EBB22A2126A800FCEF5A /* SceneDelegate.swift in Sources */,
+				1216EBC52A21270300FCEF5A /* AlbumList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1216EBB52A2126A800FCEF5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1216EBB62A2126A800FCEF5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1216EBBA2A2126A900FCEF5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1216EBBB2A2126A900FCEF5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1216EBBE2A2126A900FCEF5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1216EBBF2A2126A900FCEF5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1216EBC12A2126A900FCEF5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SkeletonUI-Animation-Bug-20230526/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mathewstevenson.SkeletonUI-Animation-Bug-20230526";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1216EBC22A2126A900FCEF5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SkeletonUI-Animation-Bug-20230526/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mathewstevenson.SkeletonUI-Animation-Bug-20230526";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1216EBA72A2126A800FCEF5A /* Build configuration list for PBXProject "SkeletonUI-Animation-Bug-20230526" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1216EBBE2A2126A900FCEF5A /* Debug */,
+				1216EBBF2A2126A900FCEF5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1216EBC02A2126A900FCEF5A /* Build configuration list for PBXNativeTarget "SkeletonUI-Animation-Bug-20230526" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1216EBC12A2126A900FCEF5A /* Debug */,
+				1216EBC22A2126A900FCEF5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1216EBC62A21278F00FCEF5A /* XCRemoteSwiftPackageReference "SkeletonUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CSolanaM/SkeletonUI";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1216EBC72A21278F00FCEF5A /* SkeletonUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1216EBC62A21278F00FCEF5A /* XCRemoteSwiftPackageReference "SkeletonUI" */;
+			productName = SkeletonUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1216EBA42A2126A800FCEF5A /* Project object */;
+}
